@@ -1,70 +1,92 @@
-# Getting Started with Create React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+---
 
-## Available Scripts
+# **JAVASDP1**  
 
-In the project directory, you can run:
+## **Overview**  
+This project is part of the **Software Development Project (SDP1)**, built using **Java** with backend support from **Spring Boot** and database integration using **PostgreSQL**. It demonstrates **CRUD operations, API integration, and secure authentication mechanisms**.  
 
-### `npm start`
+## **Key Features**  
+✅ **Java-based full-stack application**  
+✅ **User Authentication** – Secure login & signup functionality  
+✅ **CRUD Operations** – Create, Read, Update, and Delete data  
+✅ **Database Integration** – Uses PostgreSQL with Hibernate ORM  
+✅ **REST API** – Backend API for seamless frontend-backend communication  
+✅ **Payment Integration** (if applicable) – Paytm Payment Gateway  
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## **Tech Stack**  
+- **Java** – Core backend development  
+- **Spring Boot** – Web framework for backend services  
+- **Hibernate ORM** – Database interaction  
+- **PostgreSQL** – Relational database  
+- **ReactJS** (if applicable) – Frontend development  
+- **REST API** – Data exchange  
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## **Installation & Setup**  
 
-### `npm test`
+### **Backend Setup (Spring Boot + Java)**  
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+1️⃣ **Clone the repository:**  
+```sh
+git clone https://github.com/GampaRishitha/JAVASDP1.git
+cd JAVASDP1
+```
+2️⃣ **Configure the database:**  
+- Update **`application.properties`** with your PostgreSQL credentials.  
 
-### `npm run build`
+3️⃣ **Build and run the application:**  
+```sh
+mvn clean install
+mvn spring-boot:run
+```
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### **Frontend Setup (if applicable)**  
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+1️⃣ **Navigate to the frontend directory:**  
+```sh
+cd frontend
+```
+2️⃣ **Install dependencies:**  
+```sh
+npm install
+```
+3️⃣ **Run the frontend application:**  
+```sh
+npm start
+```
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## **Project Structure**  
+📂 **JAVASDP1**  
+ ├── 📁 **backend** → Spring Boot application  
+ ├── 📁 **frontend** (if applicable) → ReactJS application  
+ ├── 📄 **README.md** → Project documentation  
+ ├── 📄 **database.sql** → Sample database schema  
+ ├── 📁 **controllers** → API endpoints  
+ ├── 📁 **models** → Database entities  
+ ├── 📁 **services** → Business logic  
+ ├── 📄 **application.properties** → Backend configuration  
+ ├── 📄 **package.json** → Frontend dependencies (if applicable)  
+ └── 📁 **PaytmIntegration** → Payment processing logic (if applicable)  
 
-### `npm run eject`
+## **How It Works**  
+- **Users can register and log in securely.**  
+- **CRUD operations allow managing data efficiently.**  
+- **Database integration ensures data persistence.**  
+- **REST API enables seamless frontend-backend interaction.**  
+- **Payment system handles secure transactions (if integrated).**  
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+## **Contribution**  
+Contributions are welcome! You can:  
+✅ Improve backend performance.  
+✅ Enhance frontend UI/UX.  
+✅ Optimize database queries.  
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## **License**  
+This project is open-source and available under the **MIT License**.  
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+## **Contact**  
+For queries or collaboration, reach out via **GitHub Issues** or email.  
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+🚀 **Happy Coding!**  
 
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+---
